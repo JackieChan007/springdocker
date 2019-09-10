@@ -1,9 +1,7 @@
   <plugin>
-
                 <groupId>io.fabric8</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.26.0</version>
-
                 <!--全局配置-->
                 <configuration>
 	                <!--这一部分是为了实现对远程docker容器的控制-->
@@ -22,7 +20,6 @@
                             <password>这里填registry的密码</password>
                         </push>
                     </authConfig>
-
                     <!--镜像相关配置,支持多镜像-->
                     <images>
                         <!-- 单个镜像配置 -->
